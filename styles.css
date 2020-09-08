@@ -24,7 +24,7 @@
 
 .flex-blackjack-row1 div{
     padding: 10px;
-    height: 500px;
+    height: 450px;
     text-align:center;
     flex:1;
 }
@@ -61,4 +61,7 @@ table, th, td{
 
 b{
     text-decoration: underline;
+    font-size: 25px;
+    line-height: 3;
+
 }
