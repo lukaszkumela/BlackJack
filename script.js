@@ -53,7 +53,7 @@ function sleep(ms)
 
 async function blackjackStand(){
     blackjackGame['stand'] = true;
-    while(DEALER['score'] <= YOU['score'] && blackjackGame['stand']===true){
+    while(DEALER['score'] <= 15  && blackjackGame['stand']===true){
         let card = randomCard();
         ShowCard(card, DEALER);
         updateScore(card, DEALER)
